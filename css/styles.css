@@ -1,0 +1,87 @@
+/* Paleta de colores */
+:root {
+    --primary-color: #F4E3ED;       /* Un rosa suave */
+    --secondary-color: #FFDDCF;     /* Un melocotón claro */
+    --accent-color: #E2F6FC;        /* Un azul muy claro */
+    --text-color: #333;             /* Gris oscuro para el texto principal */
+    --link-color: #007bff;         /* Un azul estándar para enlaces */
+    --background-color: #fff;      /* Blanco para el fondo general */
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 1rem 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.hero {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.about-us, .development-goal, .identity-theft-mexico {
+    background-color: var(--accent-color);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: var(--text-color);
+    font-family: serif;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
